@@ -1,0 +1,10 @@
+Páginas da aplicação:
+1 - Criar conta/Login
+2 - Página onde você está logado (ionde vai aparecer o botão para criar contato)
+3 - Página onde vai mostrar a agenda
+
+Lista de passos:
+1 - Criar o formulário de login
+  1.1 - Validação de formulario
+2 - sistema de autenticação com MongoDB
+3 - Criptografia da senha com Bcrypt
