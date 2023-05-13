@@ -8,3 +8,19 @@ Lista de passos:
   1.1 - Validação de formulario
 2 - sistema de autenticação com MongoDB
 3 - Criptografia da senha com Bcrypt
+
+
+import { StyledHeader } from "./StyleHeader";
+import { StyledButton } from "../Button/StyledButton";
+import Button from "../Button/Button";
+
+function Header() {
+  return (
+    <StyledHeader>
+      <h1>Agenda</h1>
+      <Button />
+
+    </StyledHeader>
+  );
+}
+export default Header;

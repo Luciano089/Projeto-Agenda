@@ -1,11 +1,17 @@
 import { StyledHeader } from "./StyleHeader";
-import Button from "../Button/Button";
+import { StyledButton } from "../Button/StyledButton";
 
 function Header() {
   return (
     <StyledHeader>
       Agenda
-      <Button/>
+      <StyledButton
+        onClick={() => {
+          console.log("clicado");
+        }}
+      >
+        Entrar
+      </StyledButton>
     </StyledHeader>
   );
 }
