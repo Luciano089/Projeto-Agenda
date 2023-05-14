@@ -4,14 +4,8 @@ import { StyledButton } from "../Button/StyledButton";
 function Header() {
   return (
     <StyledHeader>
-      Agenda
-      <StyledButton
-        onClick={() => {
-          console.log("clicado");
-        }}
-      >
-        Entrar
-      </StyledButton>
+      <h1>Agenda</h1>
+      <StyledButton>Entrar</StyledButton>
     </StyledHeader>
   );
 }
