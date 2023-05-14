@@ -9,5 +9,4 @@ export const StyledButton = styled.button`
   height: 40px;
   width: 100px;
   margin-left: auto
-  
 `;

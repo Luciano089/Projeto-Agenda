@@ -1,4 +1,4 @@
-import { StyledHeader } from "./StyleHeader";
+import { StyledHeader } from "../Header/StyledHeader";
 import { StyledButton } from "../Button/StyledButton";
 
 function Header() {
