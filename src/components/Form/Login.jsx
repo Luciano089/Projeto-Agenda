@@ -1,7 +1,7 @@
 import { StyledButton } from "../Button/StyledButton";
 import { StyledMain } from "../Main/StyledMain";
 import { StyledForm } from "./StyledForm";
-import { FormInput } from "../Form/StyledForm/";
+
 
 function Login() {
   const form = (event) => {
@@ -20,8 +20,8 @@ function Login() {
         <StyledForm action="" method="POST">
           <label className="loginForm">
             <h1>Faça seu login</h1>
-            Digite Seu e-mail: <FormInput type="text" id="" />
-            Digite Sua Senha: <FormInput type="password" id="" />
+            Digite Seu e-mail: <input type="text" id="" />
+            Digite Sua Senha: <input type="password" id="" />
             <div>
               <StyledButton onClick={form}>Entrar</StyledButton>
             </div>
@@ -29,9 +29,9 @@ function Login() {
 
           <label className="createAccountForm">
             <h1>Crie sua conta</h1>
-            Digite Seu e-mail: <FormInput type="text" id="" />
-            Digite Sua Senha: <FormInput type="password" id="" />
-            Digite Sua Senha novamente: <FormInput type="password" id="" />
+            Digite Seu e-mail: <input type="text" id="" />
+            Digite Sua Senha: <input type="password" id="" />
+            Digite Sua Senha novamente: <input type="password" id="" />
             <div>
               <StyledButton onClick={form2}>Criar Conta</StyledButton>
             </div>
