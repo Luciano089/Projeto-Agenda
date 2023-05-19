@@ -1,5 +1,5 @@
 import Header from './components/header/Header'
-import Login from './components/LoginForm/Login'
+import Login from './components/Form/Login'
 
 function App() {
   return (
